@@ -8,6 +8,15 @@ public class Product {
 	private int discount;
 	private double unitPriceAfterDiscount;
 	
+	public Product() {}
+	public Product(int id,String name,double unitPrice,int discount) {
+		
+		this.id=id;
+		this.name=name;
+		this.unitPrice=unitPrice;
+		this.discount=discount;
+		
+	}
 
 	public void setId(int id) {
 		this.id=id;
