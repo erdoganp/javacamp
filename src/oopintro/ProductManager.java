@@ -4,7 +4,7 @@ public class ProductManager {
 
 	public void addProduct(Product product) {
 		
-		System.out.println("Product nesnesi eklendi");
+		System.out.println(product.getName()+" Product nesnesi eklendi");
 	}
 	
 }
